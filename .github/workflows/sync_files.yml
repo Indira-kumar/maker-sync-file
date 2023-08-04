@@ -1,7 +1,7 @@
 on:
     push:
         branches:
-            - master
+            - main
 
 name: ⏫ Sync content to FMS
 
@@ -19,7 +19,7 @@ jobs:
                   API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
               with:
                   source_file: "common/style.css" # Source File to sync
-                  destination_repo: "Indira-kumar/maker-sync-file" # Target repo
+                  destination_repo: "Indira-kumar/fms-sync-file" # Target repo
                   destination_folder: "common/" # Destination folder where to sync 
                   user_email: "indirakumarak@gmail.com"
                   user_name: "Indira-kumar"
