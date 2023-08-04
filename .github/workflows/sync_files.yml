@@ -12,7 +12,6 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v3
 
-            # Copy the 'post' folder
             - name: Push lastest css file
               uses: Indira-kumar/sync_file_to_another_repo_action@main
               env:
