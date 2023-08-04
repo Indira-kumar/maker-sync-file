@@ -10,7 +10,8 @@
   }
   nav{
     /* background: #0082e6; */
-    background: #058707;
+    /* background: #058707; */
+    background: grey;
     height: 80px;
     width: 100%;
   }
